@@ -408,7 +408,10 @@
 					</ul>
 				</div>
 				<div class="row align-center padding-top-30">
-					<span class="copyright">© Telif Hakkı 2024 <a href="https://masterteknik.tr/" title="Master Teknik" target="_blank">Master Teknik Makina</a></span>
+					<span class="copyright">
+						© <span id="year"></span> 
+						<a href="https://masterteknik.tr/" title="Master Teknik" target="_blank">Master Teknik Makina</a>
+					</span>
 				</div>
 			</div>
 		</div>
@@ -450,5 +453,9 @@
 			<!-- Call Text -->
 			<a href="tel:+902243340683" class="call-text">Hemen Ara</a>
 		</div>
+
+		<script>
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
 	</body>
 </html>
