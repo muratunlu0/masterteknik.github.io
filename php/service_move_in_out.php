@@ -157,7 +157,7 @@
 						<h3>POPULAR QUESTIONS</h3>
 						<ul class="accordion margin-top-40 clearfix">
 							<li>
-								<div id="accordion-house-cleaning">
+								<div id="section1">
 									<h4>How many people will come to clean my house?</h4>
 								</div>
 								<div class="clearfix">
@@ -165,7 +165,7 @@
 								</div>
 							</li>
 							<li>
-								<div id="accordion-present-for-cleaning">
+								<div id="section2">
 									<h4>Do I have to be present for a cleaning?</h4>
 								</div>
 								<div class="clearfix">
@@ -173,7 +173,7 @@
 								</div>
 							</li>
 							<li>
-								<div id="accordion-how-long">
+								<div id="section3">
 									<h4>How long will it take to clean my house?</h4>
 								</div>
 								<div class="clearfix">
